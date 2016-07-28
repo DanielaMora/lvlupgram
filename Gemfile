@@ -13,8 +13,10 @@ group :production do
 end
 # bootstrap front end framework
 gem 'bootstrap-sass', '~> 3.3.6'
-  
-  
+#images  
+gem 'paperclip', :git=> 'https://github.com/thoughtbot/paperclip', :ref => '523bd46c768226893f23889079a7aa9c73b57d68'
+#Amazon Web Services Cloud Storage
+gem 'aws-sdk', '< 2.0'
   
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -55,4 +57,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
