@@ -118,7 +118,7 @@ h1, .h1 {
   border-bottom: 2px solid #000;
 }
 #color-band{
-  background-color: #3dbeae;
+  background-color: #D98EF5;
   display: block;
   position: relative;
   padding-bottom: 0;
@@ -205,12 +205,12 @@ h1, .h1 {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
 }
 .se-slope:nth-child(odd) .se-content h3{
-	background: #3dbeae;
+	background: #D98EF5;
 	color: #000;
 }
 .se-slope:nth-child(even) .se-content h3{
 	background: #000;
-	color: #3dbeae;
+	color: #D98EF5;
 }
 .se-content h3:before{
 	content: '';
@@ -227,12 +227,12 @@ h1, .h1 {
 
 .se-slope:nth-child(odd) .se-content h3:before,
 .se-slope:nth-child(odd) .se-content h3:after{
-	border-right-color: #3dbeae;
-	border-left-color: #3dbeae;
+	border-right-color: #D98EF5;
+	border-left-color: #D98EF5;
 }
 .se-slope:nth-child(odd) .se-content{
 	transform: rotate(-5deg);
-	color: #3dbeae;
+	color: #D98EF5;
 	padding: 30px 10px 50px 150px;
 }
 .se-slope:nth-child(even) .se-content{
